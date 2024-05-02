@@ -2,7 +2,7 @@ import { Howl as HowlClass, HowlOptions } from 'howler';
 import { AsyncSubject, fromEvent, Observable } from 'rxjs';
 
 export declare class NgxHowlerService {
-    private loaded!: AsyncSubject<any>;
+    private loaded: AsyncSubject<any>;
     private audio: Map<string, HowlClass>;
 
     constructor();
@@ -12,3 +12,5 @@ export declare class NgxHowlerService {
     get(id: string): HowlClass;
     unregister(id: string): boolean;
 }
+
+export declare const provideHowler: () => EnvironmentProviders;
