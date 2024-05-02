@@ -30,7 +30,7 @@ export class NgxHowlerService {
   }
 
   /**
-   * register audio
+   * register audio.
    */
   register(id: string, option: HowlOptions): Observable<any> {
     return this.loaded.pipe(
