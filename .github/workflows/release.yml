@@ -14,10 +14,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2.4.0
 
-      - name: Use Node.js v16
+      - name: Use Node.js v18
         uses: actions/setup-node@17f8bd926464a1afa4c6a11669539e9c1ba77048 # tag=v3
         with:
-          node-version: 16
+          node-version: 18
           cache: npm
           registry-url: https://registry.npmjs.org
 
