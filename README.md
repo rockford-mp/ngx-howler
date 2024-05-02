@@ -1,3 +1,5 @@
-Fork of [@kainonly/ngx-howler](https://github.com/kainonly/ngx-howler) with custom modifications.
+Fork of [@kainonly/ngx-howler](https://github.com/kainonly/ngx-howler) with custom modifications implemented.
 
-**PLEASE DON'T USE IT, IT'S ONLY FOR A SIDE-PROJECT!!!!**
+> Angular version supported: v17
+
+**this is for a side project, not official.**
