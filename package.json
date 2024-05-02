@@ -1,0 +1,43 @@
+{
+  "name": "@rockfordmp/ngx-howler",
+  "description": "Audio library based on howler.js for Angular",
+  "version": "1.0.1",
+  "author": "@rockford-mp",
+  "peerDependencies": {
+    "@angular/common": "^>=15.0.0 <16.0.0",
+    "@angular/core": ">=15.0.0 <16.0.0",
+    "@types/howler": "^2.2.1"
+  },
+  "scripts": {
+    "build": "ng build ngx-howler"
+  },
+  "dependencies": {
+    "rxjs": "^7.5.7",
+    "tslib": "^2.0.0"
+  },
+  "keywords": [
+    "angular",
+    "howler",
+    "ngx-howler"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rockford-mp/ngx-howler",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rockford-mp/ngx-howler"
+  },
+  "bugs": {
+    "url": "https://github.com/rockford-mp/ngx-howler/issues"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.0.2",
+    "@angular/cli": "^15.0.2",
+    "@angular/compiler": "^15.0.2",
+    "@angular/compiler-cli": "^15.0.2",
+    "ng-packagr": "^15.0.1",
+    "typescript": "^4.8.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
